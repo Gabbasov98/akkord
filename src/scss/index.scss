@@ -1,6 +1,7 @@
 @import "vars";
 .main {
     padding-bottom: 47px;
+    overflow-x: hidden;
     &__slide {
         display: flex;
         position: relative;
