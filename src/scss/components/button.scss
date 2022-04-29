@@ -1,0 +1,36 @@
+@import "../vars";
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-out .225s;
+    padding: 0;
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.btn-yellow {
+    color: $black;
+    border-radius: 10px;
+    background-color: $primary;
+    &:hover {
+        color: $black;
+        background-color: darken($primary, 8%);
+    }
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        width: calc(100% - 43px);
+        height: 100%;
+        background: rgba(95, 122, 126, 0.22);
+        filter: blur(54px);
+        border-radius: 10px;
+        top: 28px;
+        left: 50%;
+        transform: translateX(-50%);
+        pointer-events: none;
+    }
+}

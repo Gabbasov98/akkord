@@ -1,0 +1,124 @@
+<!DOCTYPE html> <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+<style>
+    .wrapper a {
+        font-size: 30px;
+    }
+    
+    .wrapper strong {
+        font-size: 30px;
+        display: block;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    
+    strong:first-child {
+        margin-top: 0;
+    }
+    
+    .wrapper button {
+        margin-bottom: 25px;
+        width: 400px;
+        height: 65px;
+        font-size: 20px;
+    }
+</style>
+
+<body>
+
+    <div class="wrapper" style="padding: 50px;">
+
+
+
+
+
+
+        <a href="index.html" style="display: block; margin-bottom: 20px;">
+            Главная
+        </a>
+        <a href="about.html" style="display: block; margin-bottom: 20px;">
+            О нас
+        </a>
+        <a href="about2.html" style="display: block; margin-bottom: 20px;">
+            Кантабиле
+        </a>
+
+        <button style="border: 2px solid #000;margin-bottom: 20px;" data-bs-toggle="modal" data-bs-target="#consultModal">
+            Модалка 1
+        </button>
+        <button style="border: 2px solid #000;margin-bottom: 20px;" data-bs-toggle="modal" data-bs-target="#thankModal">
+            Модалка 2
+        </button>
+
+
+
+
+
+
+
+    </div>
+
+    <div class="modal fade" id="consultModal" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.41401 6.00001L11.707 1.70701C12.098 1.31601 12.098 0.684006 11.707 0.293006C11.316 -0.0979941 10.684 -0.0979941 10.293 0.293006L6.00001 4.58601L1.70701 0.293006C1.31601 -0.0979941 0.684006 -0.0979941 0.293006 0.293006C-0.0979941 0.684006 -0.0979941 1.31601 0.293006 1.70701L4.58601 6.00001L0.293006 10.293C-0.0979941 10.684 -0.0979941 11.316 0.293006 11.707C0.488006 11.902 0.744006 12 1.00001 12C1.25601 12 1.51201 11.902 1.70701 11.707L6.00001 7.41401L10.293 11.707C10.488 11.902 10.744 12 11 12C11.256 12 11.512 11.902 11.707 11.707C12.098 11.316 12.098 10.684 11.707 10.293L7.41401 6.00001Z" fill="#85949E"/>
+            </svg>
+        </button>
+        <div class="modal__title">Есть вопросы? Оставьте заявку и мы проконсультируем вас</div>
+        <div class="modal__form">
+            <fieldset class='form-group'>
+                <input type='text' placeholder="Ваше имя" />
+            </fieldset>
+            <fieldset class='form-group form-group--error'>
+                <input type='tel' placeholder="Телефон" />
+                <div class="form-group__error">Заполните поле</div>
+            </fieldset>
+            <fieldset class='form-group'>
+                <input type='email' placeholder="email" />
+            </fieldset>
+            <div class="modal__check check">
+                <input type='checkbox' class='checkbox' />
+                <label>
+                    Оставляя заявку вы соглашаетесь на <br> обработку ваших <a href="">персональных данных</a>
+                </label>
+            </div>
+            <button class="modal__btn btn btn-yellow">Перезвоните мне</button>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="thankModal" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.41401 6.00001L11.707 1.70701C12.098 1.31601 12.098 0.684006 11.707 0.293006C11.316 -0.0979941 10.684 -0.0979941 10.293 0.293006L6.00001 4.58601L1.70701 0.293006C1.31601 -0.0979941 0.684006 -0.0979941 0.293006 0.293006C-0.0979941 0.684006 -0.0979941 1.31601 0.293006 1.70701L4.58601 6.00001L0.293006 10.293C-0.0979941 10.684 -0.0979941 11.316 0.293006 11.707C0.488006 11.902 0.744006 12 1.00001 12C1.25601 12 1.51201 11.902 1.70701 11.707L6.00001 7.41401L10.293 11.707C10.488 11.902 10.744 12 11 12C11.256 12 11.512 11.902 11.707 11.707C12.098 11.316 12.098 10.684 11.707 10.293L7.41401 6.00001Z" fill="#85949E"/>
+            </svg>
+        </button>
+        <div class="modal__icon">
+            <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24.2077 4.92519L13.9119 21.1774C13.1495 22.3811 11.5549 22.7389 10.3504 21.9766L1.96032 16.6614C0.756342 15.8989 0.398486 14.3041 1.16118 13.1001C1.92402 11.8959 3.51845 11.5381 4.72218 12.3006L10.9329 16.2349L19.8469 2.16296C20.6097 0.958715 22.2044 0.601645 23.4081 1.36382C24.612 2.12656 24.9697 3.72074 24.2077 4.92519Z" fill="#4CC539"/>
+            </svg>
+        </div>
+        <div class="modal__title">Спасибо за заявку</div>
+        <div class="modal__desc">Наш менеджер свяжется с вами в ближайшщее время</div>
+    </div>
+</div>
+<!-- <div class="modal-backdrop show"></div> -->
+    <!--  -->
+    <script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>

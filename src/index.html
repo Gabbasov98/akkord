@@ -1,0 +1,176 @@
+<!DOCTYPE html> @@include('components/page-blocks/_head.html',{ "lang":"ru", "title":"Главная", "description":"", "keywords":"",})
+
+<body>
+    <div class="wrapper">
+        @@include('components/page-blocks/_header.html')
+        <main class="content">
+
+            <section class='main'>
+                <div class='container'>
+                    <div class="main__inner">
+                        <div class='main__slider'>
+                            <div class='swiper-container'>
+                                <div class='swiper-wrapper'>
+                                    <div class='swiper-slide main__slide'>
+                                        <div class="main__left">
+                                            <div class="main__date">5 мая в 17:00</div>
+                                            <h1 class="main__title display">Группа «NEW TONE»</h1>
+                                            <div class="main__img">
+                                                <img src="img/main-img.webp" alt="">
+                                            </div>
+                                            <div class="main__desc">Коллектив, работающий в эстрадном направлении
+                                            </div>
+                                            <button class="main__btn btn btn-yellow">Купить билет</button>
+                                        </div>
+
+                                    </div>
+                                    <div class='swiper-slide main__slide'>
+                                        <div class="main__left">
+                                            <div class="main__date">5 мая в 17:00</div>
+                                            <h1 class="main__title display">Группа «NEW TONE» 2</h1>
+                                            <div class="main__img">
+                                                <img src="img/main-img.webp" alt="">
+                                            </div>
+                                            <div class="main__desc">Коллектив, работающий в эстрадном направлении
+                                            </div>
+                                            <button class="main__btn btn btn-yellow">Купить билет</button>
+                                        </div>
+                                    </div>
+                                    <div class='swiper-slide main__slide'>
+                                        <div class="main__left">
+                                            <div class="main__date">5 мая в 17:00</div>
+                                            <h1 class="main__title display">Группа «NEW TONE» 3</h1>
+                                            <div class="main__img">
+                                                <img src="img/main-img.webp" alt="">
+                                            </div>
+                                            <div class="main__desc">Коллектив, работающий в эстрадном направлении
+                                            </div>
+                                            <button class="main__btn btn btn-yellow">Купить билет</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__pag">
+                                <div class='swiper-pagination'></div>
+                            </div>
+                        </div>
+                        <div class="main__bottom">
+                            <div class="main__items">
+                                <div class="main__item">
+                                    <span class="main__item-icon">
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 10.8C13.4548 10.8 14.3704 10.4207 15.0456 9.74556C15.7207 9.07043 16.1 8.15476 16.1 7.19998C16.1 6.2452 15.7207 5.32952 15.0456 4.65439C14.3704 3.97926 13.4548 3.59998 12.5 3.59998C11.5452 3.59998 10.6295 3.97926 9.95439 4.65439C9.27926 5.32952 8.89998 6.2452 8.89998 7.19998C8.89998 8.15476 9.27926 9.07043 9.95439 9.74556C10.6295 10.4207 11.5452 10.8 12.5 10.8ZM7.39863 21.6C5.57683 21.6 4.04222 20.0686 4.73939 18.3854C5.16153 17.3663 5.78027 16.4403 6.56028 15.6603C7.34029 14.8803 8.2663 14.2615 9.28544 13.8394C10.3046 13.4172 11.3969 13.2 12.5 13.2C13.6031 13.2 14.6954 13.4172 15.7145 13.8394C16.7337 14.2615 17.6597 14.8803 18.4397 15.6603C19.2197 16.4403 19.8384 17.3663 20.2606 18.3854C20.9577 20.0686 19.4231 21.6 17.6013 21.6H7.39863Z" fill="white"/>
+                                    </svg>
+                                </span>
+                                    <div>
+                                        <span class="main__item-title">4</span>
+                                        <span class="main__item-desc">Коллектива</span>
+                                    </div>
+                                </div>
+                                <div class="main__item">
+                                    <span class="main__item-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M19 9C19 8.08075 18.8189 7.1705 18.4672 6.32122C18.1154 5.47194 17.5998 4.70026 16.9497 4.05025C16.2997 3.40024 15.5281 2.88463 14.6788 2.53284C13.8295 2.18106 12.9193 2 12 2C11.0807 2 10.1705 2.18106 9.32122 2.53284C8.47194 2.88463 7.70026 3.40024 7.05025 4.05025C6.40024 4.70026 5.88463 5.47194 5.53284 6.32122C5.18106 7.1705 5 8.08075 5 9C5 10.387 5.41 11.677 6.105 12.765H6.097C8.457 16.46 12 22 12 22L17.903 12.765H17.896C18.6164 11.6414 18.9995 10.3347 19 9ZM12 12C11.2044 12 10.4413 11.6839 9.87868 11.1213C9.31607 10.5587 9 9.79565 9 9C9 8.20435 9.31607 7.44129 9.87868 6.87868C10.4413 6.31607 11.2044 6 12 6C12.7956 6 13.5587 6.31607 14.1213 6.87868C14.6839 7.44129 15 8.20435 15 9C15 9.79565 14.6839 10.5587 14.1213 11.1213C13.5587 11.6839 12.7956 12 12 12Z" fill="white"/>
+                                    </svg>
+                                </span>
+                                    <div>
+                                        <span class="main__item-title">+15</span>
+                                        <span class="main__item-desc">Городов</span>
+                                    </div>
+                                </div>
+                                <div class="main__item">
+                                    <span class="main__item-icon">
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.5 3H4.5C3.96957 3 3.46086 3.21071 3.08579 3.58579C2.71071 3.96086 2.5 4.46957 2.5 5V9C2.5 9.53043 2.71071 10.0391 3.08579 10.4142C3.46086 10.7893 3.96957 11 4.5 11H20.5C21.0304 11 21.5391 10.7893 21.9142 10.4142C22.2893 10.0391 22.5 9.53043 22.5 9V5C22.5 4.46957 22.2893 3.96086 21.9142 3.58579C21.5391 3.21071 21.0304 3 20.5 3ZM15.5 7C15.5 7.55228 15.0523 8 14.5 8C13.9477 8 13.5 7.55228 13.5 7C13.5 6.44772 13.9477 6 14.5 6C15.0523 6 15.5 6.44772 15.5 7ZM19.5 7C19.5 7.55228 19.0523 8 18.5 8C17.9477 8 17.5 7.55228 17.5 7C17.5 6.44772 17.9477 6 18.5 6C19.0523 6 19.5 6.44772 19.5 7ZM20.5 13H4.5C3.96957 13 3.46086 13.2107 3.08579 13.5858C2.71071 13.9609 2.5 14.4696 2.5 15V19C2.5 19.5304 2.71071 20.0391 3.08579 20.4142C3.46086 20.7893 3.96957 21 4.5 21H20.5C21.0304 21 21.5391 20.7893 21.9142 20.4142C22.2893 20.0391 22.5 19.5304 22.5 19V15C22.5 14.4696 22.2893 13.9609 21.9142 13.5858C21.5391 13.2107 21.0304 13 20.5 13ZM15.5 17C15.5 17.5523 15.0523 18 14.5 18C13.9477 18 13.5 17.5523 13.5 17C13.5 16.4477 13.9477 16 14.5 16C15.0523 16 15.5 16.4477 15.5 17ZM19.5 17C19.5 17.5523 19.0523 18 18.5 18C17.9477 18 17.5 17.5523 17.5 17C17.5 16.4477 17.9477 16 18.5 16C19.0523 16 19.5 16.4477 19.5 17Z" fill="white"/>
+                                    </svg>
+                                </span>
+                                    <div>
+                                        <span class="main__item-title">>286</span>
+                                        <span class="main__item-desc">Концертов</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class='catalog'>
+                <div class='catalog__item'>
+                    <div class="container">
+                        <div class="catalog__item-inner">
+                            <div class="catalog__item-img">
+                                <img src="img/catalog.webp" alt="">
+                            </div>
+                            <div class="catalog__item-right">
+                                <div class="catalog__item-badge">Вокальный ансамбль</div>
+                                <div class="catalog__item-title display2">45 ПАРАЛЛЕЛЬ</div>
+                                <div class="catalog__item-desc">Коллектив, работающий в направлении академического и эстрадного вокального искусства</div>
+                                <button class="catalog__item-btn btn btn-yellow">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='catalog__item'>
+                    <div class="container">
+                        <div class="catalog__item-inner">
+                            <div class="catalog__item-img">
+                                <img src="img/catalog2.webp" alt="">
+                            </div>
+                            <div class="catalog__item-right">
+                                <div class="catalog__item-badge catalog__item-badge--gold">Театр песни</div>
+                                <div class="catalog__item-title display2">«VIVA»</div>
+                                <div class="catalog__item-desc">Коллектив, работающий в эстрадном направлении</div>
+                                <button class="catalog__item-btn btn btn-yellow">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='catalog__item'>
+                    <div class="container">
+                        <div class="catalog__item-inner">
+                            <div class="catalog__item-img">
+                                <img src="img/catalog3.webp" alt="">
+                            </div>
+                            <div class="catalog__item-right">
+                                <div class="catalog__item-badge">Ставропольская городская капелла </div>
+                                <div class="catalog__item-title display2">«Кантабиле»</div>
+                                <div class="catalog__item-desc">Коллектив, работающий в академическом направлении </div>
+                                <button class="catalog__item-btn btn btn-yellow">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='catalog__item'>
+                    <div class="container">
+                        <div class="catalog__item-inner">
+                            <div class="catalog__item-img">
+                                <img src="img/catalog4.webp" alt="">
+                            </div>
+                            <div class="catalog__item-right">
+                                <div class="catalog__item-badge catalog__item-badge--gold">Группа</div>
+                                <div class="catalog__item-title display2">«NEW TONE»</div>
+                                <div class="catalog__item-desc">Коллектив, работающий в эстрадном направлении</div>
+                                <button class="catalog__item-btn btn btn-yellow">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class='consult'>
+                @@include('components/page-blocks/_consult.html')
+            </section>
+        </main>
+        @@include('components/page-blocks/_footer.html')
+    </div>
+    @@include('components/page-blocks/_popups.html')
+    <!--  -->
+
+    @@include('components/page-blocks/_scripts.html')
+</body>
+
+</html>
